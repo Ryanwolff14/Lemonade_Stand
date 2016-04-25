@@ -1,0 +1,50 @@
+Requirements=>
+
+*Basic  gameplay must be present 
+	(play a lemonade stand online for a bit to get familiar with the gameplay). 
+*A weather system that includes a forecast and actual weather.
+	For example, this could mean a predicted forecast for a day or week and then 
+    what the actual weather is on the given day. 
+*Price of product should affect demand. For example, if the price is too high,
+	sales will decrease. 
+*Weather should affect demand. For example, if it is sunny and 90 degrees, 
+	sales would likely skyrocket. 
+*Each customer should be a separate object with its own chance of buying a glass of lemonade.
+	This means how much lemonade is purchased and how much they are willing to pay will
+	vary from customer to customer.
+*Game must be a minimum of seven days
+*Bonus Points: Persistent data (file reading/writing) to keep track of game data. 
+    For example, how much lemonade is sold and how much profit is made on each day.
+	This will be written and read from a text file.
+ 
+%Your deadline is next Monday at 9am%
+
+%However if you finish earlier (to our satisfaction) we will give you a bonus project%
+
+
+Key Points: 
+				1. Changing Weather System
+				2. Fluxuating Price
+				3. Supply\Demand
+				4. Different types of Customers
+				5. <7 Days
+				Bonus:
+						6. Persistent Data
+						7. Sent to TXT file
+
+						
+						
+Need:
+        {X} 1. Score
+		{} 2. Choose Price
+		{} 3. begin/run/end Days
+		{X} 4. Weather: Sunny, Rainy, Cloudy, one day Apacolepse
+		{} 5. Temp: Hot, Average, Cold
+		{} 6. Bank / Register: $ and C
+		{X} 7. Supplies: Lemons, Sugar, Water, Cups
+		{} 8. Customers: Trump (buys one most of the time), Bernie(Haggles for free lemonade .1 chance of getting 
+				it free but never buys one, Ted Cruz .5 % chance to buy one
+		{} 9. Visit Counter
+		{} 10. Bankrupt function
+		{} 11. Calender
+		{} 12. End Game

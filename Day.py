@@ -67,6 +67,7 @@ class Day:
 
             
     def sellLemonade(self): 
+        supply=Inventory()
         if self.supply.lemons >= self.lemonsPerCup and self.supply.sugar >= self.sugarPerCup and self.supply.cups > 0: 
             self.supply.lemons -= self.lemonsPerCup 
             self.supply.sugar -= self.sugarPerCup 
