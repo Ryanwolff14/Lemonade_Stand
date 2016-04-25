@@ -80,25 +80,3 @@ class Day:
             print ("No cups left" )
         else: 
             print ("Can't sell lemonade, not enough supplies" )
-
-
-  
-    def Run(self):
-        for x in range(1,1000):
-            x=Customers.get_customer
-            if x%2 == 0:
-                Customers.customer1
-            elif x%3 == 0:
-                Customers.customer2
-            else:
-                print("noones around")
-            End_day()
-        
-    def End_day(self):
-        print("0")
-        print_slow("you made a total of >")
-        print(display_register)
-        print_slow("moving money to bank......")
-        time.wait(2)
-        Menu.Welcome_screen
-        
